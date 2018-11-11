@@ -1,0 +1,6 @@
+represent images:
+1)grad cap
+2)
+
+messages:
+if score goes too low "x,y,z will improve your score over time"
