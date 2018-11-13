@@ -36,6 +36,7 @@ class Input{
     }
     //textSize(24);
     fill(0,0,255);
+    textAlign(CENTER);
     text(this.msg,width/4,height/4,width/2,80);
 
     let butts=[];
@@ -73,6 +74,7 @@ class Input{
       stroke(255);
       rect(width/2,height/8,width/9,height/10);
       fill(255);
+      textAlign(CENTER);
       text('Your score changed by '+del+' points', width/2+10,height/8+10,width/9-20,height/10-20);
       //up to here
       setTimeout(function(){
