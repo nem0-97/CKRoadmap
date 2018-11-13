@@ -36,7 +36,7 @@ function setup() {
 
 
 
-  //TODO:Create input Scenes(one for each function)
+
   inpScenes.push(new Input(['Enter oldest card age(months)','Enter 2nd oldest card age(months)'],closeCard,'The age of your credit history is important','https://www.creditkarma.com/credit-cards/i/how-to-cancel-credit-card/'));
   inpScenes.push(new Input(['Enter credit limit of new card'],newCard,'Opening a card can temporarily lower your score dues to a hard inqury','https://www.creditkarma.com/credit-cards?ckt=navClickL1'));
   inpScenes.push(new Input(['Enter amount for car loan'],carLoan,'For loans make sure to make payments on time to avoid hurting your credit score and help build it','https://www.creditkarma.com/shop/autos/index/type/newpurchase?ckt=navClickL2'));
