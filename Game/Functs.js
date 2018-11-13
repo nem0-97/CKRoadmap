@@ -48,7 +48,7 @@ function pastDue(inps){
 }
 function balChange(inps){
   let delCred=(inps[0])/(credLim*10);
-  bal=inps[0];
+  bal+=inps[0];
   if(credScore+delCred>=300&&credScore+delCred<=850){
     credScore+=delCred;
   }
