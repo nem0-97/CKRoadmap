@@ -82,7 +82,7 @@ class Input{
             fill(255-col,col,0);
             noStroke();
             rect(width/2,height/8,width/8,height/9);
-            },5000);
+          },3000);
     }
   }
   submitAct(){
