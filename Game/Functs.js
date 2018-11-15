@@ -150,7 +150,7 @@ function limInc(inps){
 }
 function newCard(inps){
   let delCred=-10;
-  credLim+=cardLim;
+  credLim+=inps[0];
   if(credScore+delCred>=300&&credScore+delCred<=850){
     credScore+=delCred;
   }
