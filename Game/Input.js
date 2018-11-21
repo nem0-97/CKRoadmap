@@ -81,7 +81,7 @@ class Input{
       fill(255);
       textAlign(CENTER);
       textSize(16)
-      text('Your score changed by '+del+' points', width/2+10,height/8+10,width/9-20,height/10-20);
+      text('Your score changed by '+del+' points', width/2+10,height/8+10,width/9-20,height/12-20);
       //up to here
       setTimeout(function(){
             var col=(credScore-300)*255/550;

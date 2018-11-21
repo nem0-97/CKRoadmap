@@ -36,6 +36,10 @@ function drawScene(){
   }else{
     curScene.confirm();
   }
+  fill(255);
+  textAlign(CENTER);
+  textSize(16)
+  text('Credit Score: '+credScore,10,10,width/9-20,height/12-20);
 }
 
 //To update credit score,limit and balance(13 functs)
