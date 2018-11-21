@@ -34,10 +34,10 @@ class Input{
     for(let i=0;i<this.inputs.length;i++){
       this.inputs[i].hide();
     }
-    //textSize(24);
-    fill(0,0,255);
+    textSize(36);
+    fill(255);
     textAlign(CENTER);
-    text(this.msg,width/4,height/4,width/2,80);
+    text(this.msg,width/2-35,height/4);
 
     let butts=[];
     butts.push(createButton('Learn More'));
@@ -49,7 +49,12 @@ class Input{
     butts[0]['res']=this.res;
     butts[0].mousePressed(function(){window.open(this.res);});
 
-    butts[1].position(width/4,3*height/4);//TODO: Figure out position
+    textSize(36);
+    fill(255);
+    textAlign(CENTER);
+    text('Would you like to continue with this action?',width/2,5*height/8);
+
+    butts[1].position(3*width/8,3*height/4);//TODO: Figure out position
     butts[1]["inpObj"]=this;
     butts[1]['butts']=butts;
     butts[1].mousePressed(function(){this.inpObj.submitAct();
@@ -57,7 +62,7 @@ class Input{
           this.butts[i].hide();
         }});
 
-    butts[2].position(3*width/4,3*height/4);//TODO: Figure out position
+    butts[2].position(5*width/8,3*height/4);//TODO: Figure out position
     butts[2]["inpObj"]=this;
     butts[2]['butts']=butts;
     butts[2].mousePressed(function(){this.inpObj.goHome();
@@ -72,9 +77,10 @@ class Input{
     if(del){
       fill(0);
       stroke(255);
-      rect(width/2,height/8,width/9,height/10);
+      rect(width/2,height/8,width/9,height/12);
       fill(255);
       textAlign(CENTER);
+      textSize(16)
       text('Your score changed by '+del+' points', width/2+10,height/8+10,width/9-20,height/10-20);
       //up to here
       setTimeout(function(){

@@ -34,7 +34,7 @@ function drawScene(){
       curScene[i].show();
     }
   }else{
-    curScene.show();
+    curScene.confirm();
   }
 }
 

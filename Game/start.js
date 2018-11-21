@@ -38,7 +38,7 @@ function setup() {
 
 
   inpScenes.push(new Input(['Enter oldest card age(months)','Enter 2nd oldest card age(months)'],closeCard,'The age of your credit history is important','https://www.creditkarma.com/credit-cards/i/how-to-cancel-credit-card/'));
-  inpScenes.push(new Input(['Enter credit limit of new card'],newCard,'Opening a card can temporarily lower your score dues to a hard inqury','https://www.creditkarma.com/credit-cards?ckt=navClickL1'));
+  inpScenes.push(new Input(['Enter credit limit of new card'],newCard,'Opening a card can temporarily lower your score due to a hard inqury','https://www.creditkarma.com/credit-cards?ckt=navClickL1'));
   inpScenes.push(new Input(['Enter amount for car loan'],carLoan,'For loans make sure to make payments on time to avoid hurting your credit score and help build it','https://www.creditkarma.com/shop/autos/index/type/newpurchase?ckt=navClickL2'));
   inpScenes.push(new Input([],function(){return 0;},'Checking your credit report on a site like Credit Karma does not hurt your credit score, this is considered a soft inquiry','https://www.creditkarma.com/'));
   inpScenes.push(new Input(['Enter number accounts past due','Enter number of months past due'],pastDue,'Making payments on time limits how much extra you pay in interest and helps impove your credit score','https://www.creditkarma.com/credit-cards/i/what-happens-if-you-miss-a-credit-card-payment/'));
